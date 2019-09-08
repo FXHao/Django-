@@ -1,0 +1,511 @@
+*** Starting uWSGI 2.0.12-debian (64bit) on [Tue Aug 20 22:28:51 2019] ***
+compiled with version: 5.4.0 20160609 on 28 September 2018 15:49:44
+os: Linux-4.15.0-55-generic #60~16.04.2-Ubuntu SMP Thu Jul 4 09:03:09 UTC 2019
+nodename: fxh-ubuntu16
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/fxh/python/project/dailyfresh
+writing pidfile to uwsgi.pid
+detected binary path: /usr/bin/uwsgi-core
+chdir() to /home/fxh/python/project/dailyfresh
+your processes number limit is 30897
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+The -s/--socket option is missing and stdin is not a socket.
+
+*** Starting uWSGI 2.0.12-debian (64bit) on [Tue Aug 20 22:34:16 2019] ***
+compiled with version: 5.4.0 20160609 on 28 September 2018 15:49:44
+os: Linux-4.15.0-55-generic #60~16.04.2-Ubuntu SMP Thu Jul 4 09:03:09 UTC 2019
+nodename: fxh-ubuntu16
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/fxh/python/project/dailyfresh
+writing pidfile to uwsgi.pid
+detected binary path: /usr/bin/uwsgi-core
+chdir() to /home/fxh/python/project/dailyfresh
+your processes number limit is 30897
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+The -s/--socket option is missing and stdin is not a socket.
+*** Starting uWSGI 2.0.12-debian (64bit) on [Tue Aug 20 22:38:22 2019] ***
+compiled with version: 5.4.0 20160609 on 28 September 2018 15:49:44
+os: Linux-4.15.0-55-generic #60~16.04.2-Ubuntu SMP Thu Jul 4 09:03:09 UTC 2019
+nodename: fxh-ubuntu16
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/fxh/python/project/dailyfresh
+writing pidfile to uwsgi.pid
+detected binary path: /usr/bin/uwsgi-core
+chdir() to /home/fxh/python/project/dailyfresh
+your processes number limit is 30897
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8081 fd 3
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 415360 bytes (405 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+!!!!!!!!!!!!!! WARNING !!!!!!!!!!!!!!
+no request plugin is loaded, you will not be able to manage requests.
+you may need to install the package for your language of choice, or simply load it with --plugin.
+!!!!!!!!!!! END OF WARNING !!!!!!!!!!
+spawned uWSGI master process (pid: 9887)
+spawned uWSGI worker 1 (pid: 9888, cores: 2)
+spawned uWSGI worker 2 (pid: 9889, cores: 2)
+spawned uWSGI worker 3 (pid: 9890, cores: 2)
+spawned uWSGI worker 4 (pid: 9892, cores: 2)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 0 seconds
+worker 2 buried after 0 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.18 (64bit) on [Tue Aug 20 22:41:41 2019] ***
+compiled with version: 5.4.0 20160609 on 18 August 2019 12:59:23
+os: Linux-4.15.0-55-generic #60~16.04.2-Ubuntu SMP Thu Jul 4 09:03:09 UTC 2019
+nodename: fxh-ubuntu16
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/fxh/python/project/dailyfresh
+writing pidfile to uwsgi.pid
+detected binary path: /home/fxh/anaconda3/envs/django/bin/uwsgi
+chdir() to /home/fxh/python/project/dailyfresh
+your processes number limit is 30897
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8080 fd 3
+uwsgi socket 0 bound to TCP address 127.0.0.1:8081 fd 6
+Python version: 3.5.2 (default, Nov 12 2018, 13:43:14)  [GCC 5.4.0 20160609]
+Set PythonHome to /home/fxh/anaconda3/envs/django
+Failed to import the site module
+Traceback (most recent call last):
+  File "/home/fxh/anaconda3/envs/django/lib/python3.5/site.py", line 559, in <module>
+    main()
+  File "/home/fxh/anaconda3/envs/django/lib/python3.5/site.py", line 540, in main
+    known_paths = addusersitepackages(known_paths)
+  File "/home/fxh/anaconda3/envs/django/lib/python3.5/site.py", line 281, in addusersitepackages
+    user_site = getusersitepackages()
+  File "/home/fxh/anaconda3/envs/django/lib/python3.5/site.py", line 257, in getusersitepackages
+    user_base = getuserbase() # this will also set USER_BASE
+  File "/home/fxh/anaconda3/envs/django/lib/python3.5/site.py", line 247, in getuserbase
+    USER_BASE = get_config_var('userbase')
+  File "/home/fxh/anaconda3/envs/django/lib/python3.5/sysconfig.py", line 607, in get_config_var
+    return get_config_vars().get(name)
+  File "/home/fxh/anaconda3/envs/django/lib/python3.5/sysconfig.py", line 556, in get_config_vars
+    _init_posix(_CONFIG_VARS)
+  File "/home/fxh/anaconda3/envs/django/lib/python3.5/sysconfig.py", line 427, in _init_posix
+    _temp = __import__(name, globals(), locals(), ['build_time_vars'], 0)
+ImportError: No module named '_sysconfigdata_m_linux_x86_64-linux-gnu'
+*** Starting uWSGI 2.0.12-debian (64bit) on [Tue Aug 20 22:44:23 2019] ***
+compiled with version: 5.4.0 20160609 on 28 September 2018 15:49:44
+os: Linux-4.15.0-55-generic #60~16.04.2-Ubuntu SMP Thu Jul 4 09:03:09 UTC 2019
+nodename: fxh-ubuntu16
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/fxh/python/project/dailyfresh
+writing pidfile to uwsgi.pid
+detected binary path: /usr/bin/uwsgi-core
+chdir() to /home/fxh/python/project/dailyfresh
+your processes number limit is 30897
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8081 fd 3
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 415360 bytes (405 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+!!!!!!!!!!!!!! WARNING !!!!!!!!!!!!!!
+no request plugin is loaded, you will not be able to manage requests.
+you may need to install the package for your language of choice, or simply load it with --plugin.
+!!!!!!!!!!! END OF WARNING !!!!!!!!!!
+spawned uWSGI master process (pid: 10158)
+spawned uWSGI worker 1 (pid: 10159, cores: 2)
+spawned uWSGI worker 2 (pid: 10160, cores: 2)
+spawned uWSGI worker 3 (pid: 10162, cores: 2)
+spawned uWSGI worker 4 (pid: 10165, cores: 2)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.12-debian (64bit) on [Wed Aug 21 14:07:56 2019] ***
+compiled with version: 5.4.0 20160609 on 28 September 2018 15:49:44
+os: Linux-4.15.0-55-generic #60~16.04.2-Ubuntu SMP Thu Jul 4 09:03:09 UTC 2019
+nodename: fxh-ubuntu16
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/fxh/python/project/dailyfresh
+writing pidfile to uwsgi.pid
+detected binary path: /usr/bin/uwsgi-core
+chdir() to /home/fxh/python/project/dailyfresh
+your processes number limit is 30897
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8081 fd 3
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 415360 bytes (405 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+!!!!!!!!!!!!!! WARNING !!!!!!!!!!!!!!
+no request plugin is loaded, you will not be able to manage requests.
+you may need to install the package for your language of choice, or simply load it with --plugin.
+!!!!!!!!!!! END OF WARNING !!!!!!!!!!
+spawned uWSGI master process (pid: 3245)
+spawned uWSGI worker 1 (pid: 3246, cores: 2)
+spawned uWSGI worker 2 (pid: 3247, cores: 2)
+spawned uWSGI worker 3 (pid: 3249, cores: 2)
+spawned uWSGI worker 4 (pid: 3251, cores: 2)
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+
+
+
+*** Starting uWSGI 2.0.12-debian (64bit) on [Wed Aug 21 14:17:13 2019] ***
+compiled with version: 5.4.0 20160609 on 28 September 2018 15:49:44
+os: Linux-4.15.0-55-generic #60~16.04.2-Ubuntu SMP Thu Jul 4 09:03:09 UTC 2019
+nodename: fxh-ubuntu16
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/fxh/python/project/dailyfresh
+writing pidfile to uwsgi.pid
+detected binary path: /usr/bin/uwsgi-core
+chdir() to /home/fxh/python/project/dailyfresh
+your processes number limit is 30897
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+The -s/--socket option is missing and stdin is not a socket.
+*** Starting uWSGI 2.0.12-debian (64bit) on [Wed Aug 21 14:18:06 2019] ***
+compiled with version: 5.4.0 20160609 on 28 September 2018 15:49:44
+os: Linux-4.15.0-55-generic #60~16.04.2-Ubuntu SMP Thu Jul 4 09:03:09 UTC 2019
+nodename: fxh-ubuntu16
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/fxh/python/project/dailyfresh
+writing pidfile to uwsgi.pid
+detected binary path: /usr/bin/uwsgi-core
+chdir() to /home/fxh/python/project/dailyfresh
+your processes number limit is 30897
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8081 fd 3
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 415360 bytes (405 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+!!!!!!!!!!!!!! WARNING !!!!!!!!!!!!!!
+no request plugin is loaded, you will not be able to manage requests.
+you may need to install the package for your language of choice, or simply load it with --plugin.
+!!!!!!!!!!! END OF WARNING !!!!!!!!!!
+spawned uWSGI master process (pid: 4570)
+spawned uWSGI worker 1 (pid: 4571, cores: 2)
+spawned uWSGI worker 2 (pid: 4572, cores: 2)
+spawned uWSGI worker 3 (pid: 4574, cores: 2)
+spawned uWSGI worker 4 (pid: 4576, cores: 2)
+
+
+
+*** Starting uWSGI 2.0.12-debian (64bit) on [Wed Aug 21 14:21:10 2019] ***
+compiled with version: 5.4.0 20160609 on 28 September 2018 15:49:44
+os: Linux-4.15.0-55-generic #60~16.04.2-Ubuntu SMP Thu Jul 4 09:03:09 UTC 2019
+nodename: fxh-ubuntu16
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/fxh/python/project/dailyfresh
+writing pidfile to uwsgi.pid
+detected binary path: /usr/bin/uwsgi-core
+chdir() to /home/fxh/python/project/dailyfresh
+your processes number limit is 30897
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8081 fd 3
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 415360 bytes (405 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+!!!!!!!!!!!!!! WARNING !!!!!!!!!!!!!!
+no request plugin is loaded, you will not be able to manage requests.
+you may need to install the package for your language of choice, or simply load it with --plugin.
+!!!!!!!!!!! END OF WARNING !!!!!!!!!!
+spawned uWSGI master process (pid: 6355)
+spawned uWSGI worker 1 (pid: 6356, cores: 2)
+spawned uWSGI worker 2 (pid: 6357, cores: 2)
+spawned uWSGI worker 3 (pid: 6359, cores: 2)
+spawned uWSGI worker 4 (pid: 6361, cores: 2)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 0 seconds
+worker 2 buried after 0 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.12-debian (64bit) on [Wed Aug 21 14:54:02 2019] ***
+compiled with version: 5.4.0 20160609 on 28 September 2018 15:49:44
+os: Linux-4.15.0-55-generic #60~16.04.2-Ubuntu SMP Thu Jul 4 09:03:09 UTC 2019
+nodename: fxh-ubuntu16
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/fxh/python/project/dailyfresh
+writing pidfile to uwsgi.pid
+detected binary path: /usr/bin/uwsgi-core
+your processes number limit is 30897
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8081 fd 3
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 415360 bytes (405 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+!!!!!!!!!!!!!! WARNING !!!!!!!!!!!!!!
+no request plugin is loaded, you will not be able to manage requests.
+you may need to install the package for your language of choice, or simply load it with --plugin.
+!!!!!!!!!!! END OF WARNING !!!!!!!!!!
+spawned uWSGI master process (pid: 7448)
+spawned uWSGI worker 1 (pid: 7449, cores: 2)
+spawned uWSGI worker 2 (pid: 7450, cores: 2)
+spawned uWSGI worker 3 (pid: 7452, cores: 2)
+spawned uWSGI worker 4 (pid: 7453, cores: 2)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 0 seconds
+worker 3 buried after 0 seconds
+worker 2 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.12-debian (64bit) on [Wed Aug 21 14:57:14 2019] ***
+compiled with version: 5.4.0 20160609 on 28 September 2018 15:49:44
+os: Linux-4.15.0-55-generic #60~16.04.2-Ubuntu SMP Thu Jul 4 09:03:09 UTC 2019
+nodename: fxh-ubuntu16
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/fxh/python/project/dailyfresh
+writing pidfile to uwsgi.pid
+detected binary path: /usr/bin/uwsgi-core
+your processes number limit is 30897
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8081 fd 3
+Python version: 3.5.2 (default, Nov 12 2018, 13:43:14)  [GCC 5.4.0 20160609]
+Set PythonHome to /home/fxh/.virtualenvs/Project/django
+Python main interpreter initialized at 0x2033840
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 415360 bytes (405 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x2033840 pid: 7497 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 7497)
+spawned uWSGI worker 1 (pid: 7499, cores: 2)
+spawned uWSGI worker 2 (pid: 7500, cores: 2)
+spawned uWSGI worker 3 (pid: 7502, cores: 2)
+spawned uWSGI worker 4 (pid: 7504, cores: 2)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.12-debian (64bit) on [Wed Aug 21 15:02:21 2019] ***
+compiled with version: 5.4.0 20160609 on 28 September 2018 15:49:44
+os: Linux-4.15.0-55-generic #60~16.04.2-Ubuntu SMP Thu Jul 4 09:03:09 UTC 2019
+nodename: fxh-ubuntu16
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/fxh/python/project/dailyfresh
+writing pidfile to uwsgi.pid
+detected binary path: /usr/bin/uwsgi-core
+your processes number limit is 30897
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8080 fd 3
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 415360 bytes (405 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+!!!!!!!!!!!!!! WARNING !!!!!!!!!!!!!!
+no request plugin is loaded, you will not be able to manage requests.
+you may need to install the package for your language of choice, or simply load it with --plugin.
+!!!!!!!!!!! END OF WARNING !!!!!!!!!!
+spawned uWSGI master process (pid: 7602)
+spawned uWSGI worker 1 (pid: 7603, cores: 2)
+spawned uWSGI worker 2 (pid: 7604, cores: 2)
+spawned uWSGI worker 3 (pid: 7606, cores: 2)
+spawned uWSGI worker 4 (pid: 7608, cores: 2)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.12-debian (64bit) on [Wed Aug 21 15:02:30 2019] ***
+compiled with version: 5.4.0 20160609 on 28 September 2018 15:49:44
+os: Linux-4.15.0-55-generic #60~16.04.2-Ubuntu SMP Thu Jul 4 09:03:09 UTC 2019
+nodename: fxh-ubuntu16
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/fxh/python/project/dailyfresh
+writing pidfile to uwsgi.pid
+detected binary path: /usr/bin/uwsgi-core
+your processes number limit is 30897
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8080 fd 3
+Python version: 3.5.2 (default, Nov 12 2018, 13:43:14)  [GCC 5.4.0 20160609]
+Set PythonHome to /home/fxh/.virtualenvs/Project/django
+Python main interpreter initialized at 0x904840
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 415360 bytes (405 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x904840 pid: 7615 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 7615)
+spawned uWSGI worker 1 (pid: 7617, cores: 2)
+spawned uWSGI worker 2 (pid: 7618, cores: 2)
+spawned uWSGI worker 3 (pid: 7620, cores: 2)
+spawned uWSGI worker 4 (pid: 7622, cores: 2)
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+
+
+
+*** Starting uWSGI 2.0.12-debian (64bit) on [Wed Aug 21 15:16:19 2019] ***
+compiled with version: 5.4.0 20160609 on 28 September 2018 15:49:44
+os: Linux-4.15.0-55-generic #60~16.04.2-Ubuntu SMP Thu Jul 4 09:03:09 UTC 2019
+nodename: fxh-ubuntu16
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/fxh/python/project/dailyfresh
+writing pidfile to uwsgi.pid
+detected binary path: /usr/bin/uwsgi-core
+your processes number limit is 30897
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8080 fd 3
+Python version: 3.5.2 (default, Nov 12 2018, 13:43:14)  [GCC 5.4.0 20160609]
+Set PythonHome to /home/fxh/.virtualenvs/Project/django
+Python main interpreter initialized at 0xd84840
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 415360 bytes (405 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0xd84840 pid: 8109 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 8109)
+spawned uWSGI worker 1 (pid: 8111, cores: 2)
+spawned uWSGI worker 2 (pid: 8112, cores: 2)
+spawned uWSGI worker 3 (pid: 8114, cores: 2)
+spawned uWSGI worker 4 (pid: 8117, cores: 2)
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+[pid: 8112|app: 0|req: 1/1] 127.0.0.1 () {40 vars in 808 bytes} [Wed Aug 21 15:17:27 2019] GET / => generated 74 bytes in 849 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+设置缓存
+[pid: 8117|app: 0|req: 1/2] 127.0.0.1 () {40 vars in 818 bytes} [Wed Aug 21 15:17:37 2019] GET /index => generated 8516 bytes in 1251 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 8117|app: 0|req: 2/3] 127.0.0.1 () {44 vars in 841 bytes} [Wed Aug 21 15:17:38 2019] GET /static/js/jquery-ui.min.js => generated 100 bytes in 12 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 8114|app: 0|req: 1/4] 127.0.0.1 () {44 vars in 849 bytes} [Wed Aug 21 15:17:38 2019] GET /static/js/jquery-1.12.4.min.js => generated 104 bytes in 907 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 8112|app: 0|req: 2/5] 127.0.0.1 () {40 vars in 748 bytes} [Wed Aug 21 15:17:39 2019] GET /static/js/jquery-ui.min.js => generated 100 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 8117|app: 0|req: 3/6] 127.0.0.1 () {42 vars in 856 bytes} [Wed Aug 21 15:17:46 2019] GET /user/ => generated 6029 bytes in 68 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 8117|app: 0|req: 5/7] 127.0.0.1 () {40 vars in 796 bytes} [Wed Aug 21 15:17:46 2019] GET /static/images/left_bg.jpg => generated 99 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 8117|app: 0|req: 5/8] 127.0.0.1 () {40 vars in 800 bytes} [Wed Aug 21 15:17:46 2019] GET /static/images/shop_cart.png => generated 101 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 8111|app: 0|req: 1/9] 127.0.0.1 () {42 vars in 862 bytes} [Wed Aug 21 15:21:09 2019] GET /goods/11 => generated 11200 bytes in 1376 msecs (HTTP/1.1 200) 4 headers in 224 bytes (1 switches on core 0)
+[pid: 8117|app: 0|req: 6/10] 127.0.0.1 () {40 vars in 759 bytes} [Wed Aug 21 15:21:11 2019] GET /static/js/jquery-1.12.4.min.js => generated 104 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 8114|app: 0|req: 2/11] 127.0.0.1 () {40 vars in 790 bytes} [Wed Aug 21 15:21:11 2019] GET /static/images/down.png => generated 96 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 8114|app: 0|req: 3/12] 127.0.0.1 () {40 vars in 759 bytes} [Wed Aug 21 15:21:11 2019] GET /static/js/jquery-1.12.4.min.js => generated 104 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 8117|app: 0|req: 7/13] 127.0.0.1 () {42 vars in 859 bytes} [Wed Aug 21 15:21:30 2019] GET /index => generated 8516 bytes in 82 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 8117|app: 0|req: 8/14] 127.0.0.1 () {40 vars in 756 bytes} [Wed Aug 21 15:21:30 2019] GET /static/js/jquery-1.12.4.min.js => generated 104 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 8112|app: 0|req: 3/15] 127.0.0.1 () {40 vars in 748 bytes} [Wed Aug 21 15:21:30 2019] GET /static/js/jquery-ui.min.js => generated 100 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+
+
